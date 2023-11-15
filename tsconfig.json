@@ -1,23 +1,22 @@
 {
-
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/Js/Desktop/Portafolio/cloneSpotify/certain-comet",
     "paths": {
       "@/*": [
         "src/*"
       ],
-      "@/components":[
+      "@/components": [
         "src/components/*"
       ],
-      "@/icons":[
+      "@/icons": [
         "src/icons/*"
       ],
-      "@/lib":[
+      "@/lib": [
         "src/lib/*"
       ]
-    }
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   },
-
-
   "extends": "astro/tsconfigs/strict"
 }
