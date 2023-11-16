@@ -19,14 +19,15 @@ import { playlists } from "@/lib/data";
         <SearchIcon />
          Buscar
       </SideMenuItem>
-      {playlists.map((playlist) => <SideMenuCard playlist={playlist} />)}
     </ul>
   </div>
-
   <div class="bg-zinc-900 rounded-lg p-2 flex-1">
-    <SideMenuItem href="/">
-      <LibraryIcon />
-       Tu biblioteca
-    </SideMenuItem>
+    <ul>
+      <SideMenuItem href="/">
+        <LibraryIcon />
+         Tu biblioteca
+      </SideMenuItem>
+      {playlists.map((playlist) => <SideMenuCard playlist={playlist} />)}
+    </ul>
   </div>
 </nav>
